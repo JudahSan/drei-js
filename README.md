@@ -8,7 +8,9 @@ weekend tinkering. threejs playthrough
 * **Materials:** The mesh uses a `MeshStandardMaterial` with a blue color and flat shading. An additional wireframe mesh is added for a subtle outline effect.
 * **Lighting:** A `HemisphereLight` provides ambient lighting to the scene.
 * **Animation:** The `animate` function continuously updates the scene. Currently, it only rotates the mesh on the Y-axis.
+* **Spline:** Representation of a line in 3D space
 
+Tubes geometry, edges geometry, glow effect
 ## Learning Resources:
 
 * **Three.js Documentation:** The official Three.js website provides comprehensive documentation and tutorials to get you started: [https://threejs.org/docs/](https://threejs.org/docs/)
