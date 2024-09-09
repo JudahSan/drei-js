@@ -30,6 +30,8 @@ const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true; // Enable damping (inertia)
 controls.dampingFactor = 0.01; // Damping factor
 
+console.log(spline);
+
 // Create geometry and material for a mesh
 const geo = new THREE.IcosahedronGeometry(5.0, 2);
 const mat = new THREE.MeshStandardMaterial({
